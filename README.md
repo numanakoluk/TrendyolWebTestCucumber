@@ -26,7 +26,6 @@
 
 
 # **Demo
-https://user-images.githubusercontent.com/89300182/199294073-0333d4af-1972-45be-9c48-905d4198ad60.mp4
 
 
 # Log4j.properties 
@@ -34,7 +33,6 @@ https://user-images.githubusercontent.com/89300182/199294073-0333d4af-1972-45be-
 
 # cucumber.html(Reports)
 
-![image](https://user-images.githubusercontent.com/89300182/198880702-725d4f21-1213-47e7-93a2-adcae6ca1fa8.png)
 
 # pom.xml
  

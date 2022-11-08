@@ -12,17 +12,10 @@
 5. [+] **Kullanıcı, Arama sonucunda ekrana gelen ürün listesinden (veya tek bir sonuç da dönmüş olabilir) ürün seçer..**
 6. [+] **Seçilen ürün için 2 tane farklı satıcıdan ürün seçilip sepete eklenir.**
 7. [+] **Seçilen ürünün doğru olarak eklendiği ‘Sepetim’ sayfasında doğrulanır.**
-8. [+] **Seçilen ürünler silinir.**
+8. [+] **Seçilen ürünler silinir ve Favorilere eklenir.**
 
 
-# AllSteps Trendyol WithNothLogin Scenario 
-**Tags:chrome**
-1. [+] **Çerezler Kabul Edilir.**
-2. [+] **Kullanıcı Hepsiburada.com sitesini Ziyaret Eder.**
-3. [+] **Kullanıcı, Arama sonucunda ekrana gelen ürün listesinden (veya tek bir sonuç da dönmüş olabilir) ürün seçer..**
-4. [+] **Seçilen ürün için 2 tane farklı satıcıdan ürün seçilip sepete eklenir.**
-5. [+] **Seçilen ürünün doğru olarak eklendiği ‘Sepetim’ sayfasında doğrulanır.**
-6. [+] **Seçilen ürünler silinir.**
+
 
 
 # **Demo

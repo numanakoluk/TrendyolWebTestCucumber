@@ -13,6 +13,8 @@ public class CartPage extends Methods {
         expectedText = getTextFromElement("cart_second_product_item");
         compareTextWithExpected("cart_second_product_item");
     }
+
+
     public void deleteProduct() {
          waitForSecond(2000);
          clickToElementProduct("cart_first_delete_basket");
@@ -23,5 +25,16 @@ public class CartPage extends Methods {
          waitForSecond(2000);
          clickToElementProduct("cart_delete_button");
          waitForSecond(2000);
+    }
+    public void deleteProductL() {
+        waitForSecond(2000);
+        clickToElementProduct("cart_first_delete_basket");
+        waitForSecond(2000);
+        clickToElementProduct("cart_first_delete_basketL");
+        waitForSecond(5000);
+        clickToElementProduct("cart_first_delete_basket2");
+        waitForSecond(2000);
+        clickToElementProduct("cart_first_delete_basketL");
+        waitForSecond(2000);
     }
 }

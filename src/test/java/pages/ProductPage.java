@@ -13,10 +13,11 @@ public class ProductPage extends Methods {
     }
 
     public void addProducts() {
+        waitForSecond(2000);
         clickToElementProduct("product_first_add_button");
-        waitForSecond(5000);
+        waitForSecond(2000);
         clickToElement("product_second_go");
-        waitForSecond(5000);
+        waitForSecond(3000);
         clickToElement("product_second_add_button2");
         waitForSecond(5000);
         clickToElement("product_shopping_cart_button");

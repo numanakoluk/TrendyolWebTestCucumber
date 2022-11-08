@@ -47,16 +47,18 @@ public class TestSteps {
     }
 
 
+
     @Given("^Secilen urunun dogru olarak eklendigi sepetim sayfasında dogrulanır$")
     public void secilen_urunun_dogru_olarak_eklendigi_sepetim_sayfasinda_dogrulanir() {
         cartPage.checkForProducts();
         LOGGER.info("Seçilen ürünün doğru olarak eklendiği ‘Sepetim’ sayfasında(Assertion) ile doğrulandı.");
     }
 
-    @Given("^Secilen Urunler silinir$")
+
+    @Given("^Secilen Urunler silinir ve favorilere eklenir$")
     public void secilen_urunler_silinir() {
-        cartPage.deleteProduct();
-        LOGGER.info("Seçilen Ürünler Silindi.");
+        cartPage.deleteProductL();
+        LOGGER.info("Seçilen Ürünler Silindi ve Favorilere eklendi.");
     }
 
     @Given("^Kullanici kimlik bilgileriyle oturum açar$")

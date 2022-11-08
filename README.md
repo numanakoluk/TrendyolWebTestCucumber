@@ -1,36 +1,33 @@
 <div align="center">
- HepsiBuradaWebTestProject
+ TrendyolWebTestProject
 </div>
 
 # **SELENIUM WEB //Intelij //MVN //JUNIT // TESTNG // CUCUMBER 
-# AllSteps Hepsiburada WithLogin Scenario 
+# AllSteps Trenyol WithLogin Scenario 
 **Tags:chrome**
 1. [+] **Çerezler Kabul Edilir.**
-2. [+] **Kullanıcı Hepsiburada.com sitesini Ziyaret Eder.**
+2. [+] **Kullanıcı Trendyol.com sitesini Ziyaret Eder.**
 3. [+] **Kullanıcı Giriş İşlemi Yapılır.**
 4. [+] **Yönlendirmeden sonra anasayfada kullanıcı giriş işleminin yapıldığı doğrulanır.**
 5. [+] **Kullanıcı, Arama sonucunda ekrana gelen ürün listesinden (veya tek bir sonuç da dönmüş olabilir) ürün seçer..**
 6. [+] **Seçilen ürün için 2 tane farklı satıcıdan ürün seçilip sepete eklenir.**
 7. [+] **Seçilen ürünün doğru olarak eklendiği ‘Sepetim’ sayfasında doğrulanır.**
+8. [+] **Seçilen ürünler silinir.**
 
 
-
-# AllSteps Hepsiburada WithNothLogin Scenario 
+# AllSteps Trendyol WithNothLogin Scenario 
 **Tags:chrome**
 1. [+] **Çerezler Kabul Edilir.**
 2. [+] **Kullanıcı Hepsiburada.com sitesini Ziyaret Eder.**
 3. [+] **Kullanıcı, Arama sonucunda ekrana gelen ürün listesinden (veya tek bir sonuç da dönmüş olabilir) ürün seçer..**
 4. [+] **Seçilen ürün için 2 tane farklı satıcıdan ürün seçilip sepete eklenir.**
 5. [+] **Seçilen ürünün doğru olarak eklendiği ‘Sepetim’ sayfasında doğrulanır.**
+6. [+] **Seçilen ürünler silinir.**
 
-# **Presentation
-https://www.loom.com/share/c5bc89c0480849ba835e0dd39eadfb81
 
 # **Demo
 https://user-images.githubusercontent.com/89300182/199294073-0333d4af-1972-45be-9c48-905d4198ad60.mp4
 
-# **Project using just JUNIT/Maaven with same scenario 
-https://github.com/numanakoluk/A101TestFinalCaseJunit
 
 # Log4j.properties 
 ![image](https://user-images.githubusercontent.com/89300182/198880629-c5844989-ab5e-4753-9fcc-e364e2042b72.png)
